@@ -1,6 +1,8 @@
 import './App.css';
 import ClickCounter from './ClickCounter';
 import HoverCounter from './HoverCounter';
+import Parent from './Parent';
+
 
 function App() {
   return (
@@ -25,8 +27,12 @@ function App() {
       */}
 
       <ClickCounter/>
-
       <HoverCounter/>
+
+      <hr/>
+
+      {/* *******************Pure components*********************/}
+      <Parent/>
     </div>
   );
 }
